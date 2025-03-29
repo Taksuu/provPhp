@@ -10,6 +10,14 @@ class Pessoa
         $this->idade = $idade;
     }
 
+    public function getNome() {
+    return $this->nome;
+}
+
+public function getIdade() {
+    return $this->idade;
+}
+    
     public function falar()
     {
         echo "Falando...";
