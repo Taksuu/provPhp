@@ -7,14 +7,15 @@ require_once "Aluno.php";
 
  echo $pessoa->getNome() . "<br>";
  echo $pessoa->getIdade() . "<br>";
- echo $pessoa->falar();
+ echo $pessoa->falar() . "<br>" . "<br>";
 
+ 
 
  $aluno = new Aluno ("Pedro", "18");
 
  echo $aluno->getNome() . "<br>";
  echo $aluno->getIdade() . "<br>";
- echo $aluno->falar();
+ echo $aluno->falar() . "<br>" . "<br>";
 
  
  $professor = new Professor ("Joao", "18");
