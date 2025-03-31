@@ -12,14 +12,14 @@ require_once "Aluno.php";
 
  $aluno = new Aluno ("Pedro", "18");
 
- echo $pessoa->getNome() . "<br>";
- echo $pessoa->getIdade() . "<br>";
- echo $pessoa->falar();
+ echo $aluno->getNome() . "<br>";
+ echo $aluno->getIdade() . "<br>";
+ echo $aluno->falar();
 
  
  $professor = new Professor ("Joao", "18");
 
- echo $pessoa->getNome() . "<br>";
- echo $pessoa->getIdade() . "<br>";
- echo $pessoa->falar();
+ echo $professor->getNome() . "<br>";
+ echo $professor->getIdade() . "<br>";
+ echo $professor->falar();
 ?>
