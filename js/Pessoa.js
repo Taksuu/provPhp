@@ -4,12 +4,12 @@ class Pessoa {
         this.idade = idade;
     }
     
-    nome() {
-        return $(this.nome);
+    getNome() {
+        return (this.nome);
     }
 
-    idade() {
-        return $(this.idade);
+    getIdade() {
+        return (this.idade);
     }
 
     falar() {
@@ -17,3 +17,5 @@ class Pessoa {
     }
 
 }
+
+export { Pessoa };
